@@ -1,0 +1,47 @@
+@font-face {
+      font-family: Helvetica Neue;
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://d8it4huxumps7.cloudfront.net/files/66e2b229d7937_helveticaneueltproroman.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: Helvetica Neue;
+      font-style: normal;
+      font-weight: 600;
+      src: url(https://d8it4huxumps7.cloudfront.net/files/66e2b4b2bb268_helveticaneueltprobd.woff) format("woff");
+    }
+
+    @font-face {
+      font-family: Helvetica Neue;
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://d8it4huxumps7.cloudfront.net/files/66e2b4c76a291_helveticaneueltprobdex.woff) format("woff");
+    }
+
+    * {
+      outline: 0;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        scrollbar-face-color: slategray;
+        scrollbar-track-color: #b8c0c8;
+      }
+    }
+
+    body {
+      font-family: Helvetica Neue;
+      line-height: 120%;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+      color: #2b0d60;
+      font-size: 14px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
